@@ -31,8 +31,10 @@ class LeafBorderText extends StatelessWidget {
       child: const Padding(
         padding: EdgeInsets.all(8.0),
         child: Text(
-          "Halo Dunia",
-          style: TextStyle(color: Colors.amber, fontWeight: FontWeight.bold),
+          "Halo Akhirat",
+          style: TextStyle(
+              color: Color.fromARGB(255, 7, 255, 52),
+              fontWeight: FontWeight.bold),
         ),
       ),
     );
